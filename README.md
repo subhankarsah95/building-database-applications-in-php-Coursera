@@ -22,3 +22,8 @@ The database connectivity files used all have user as `alan` and password as `al
 | Week 2      | misc     | autos | setup.php and notes.txt                 |
 | Week 4      | misc     | autos | no extra config needed same as week2    |
 | Week 5      | misc     | autos | only need to create `autos` table again |
+
+## Preview CRUD Application
+
+| ![](./week5/crud/ss/index.png) | ![](./week5/crud/ss/edit.png) |
+| ![](./week5/crud/ss/add.png) | ![](./week5/crud/ss/delete.png) |

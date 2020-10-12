@@ -27,11 +27,11 @@ The database connectivity files used all have user as `alan` and password as `al
 
 <table>
   <tr>
-    <td> <img src="./week5/crud/ss/index.png"  width='50%' /></td>
-    <td><img src="./week5/crud/ss/edit.png"  width='50%' /></td>
+    <td> <img src="./week5/crud/ss/index.png" /></td>
+    <td><img src="./week5/crud/ss/update.png" /></td>
    </tr> 
    <tr>
-      <td><img src="./week5/crud/ss/add.png" width='50%'/></td>
-      <td><img src="./week5/crud/ss/delete.png"  width='50%'/></td>
+      <td><img src="./week5/crud/ss/add.png"/></td>
+      <td><img src="./week5/crud/ss/delete.png" /></td>
   </tr>
 </table>

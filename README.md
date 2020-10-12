@@ -25,5 +25,13 @@ The database connectivity files used all have user as `alan` and password as `al
 
 ## Preview CRUD Application
 
-| ![](./week5/crud/ss/index.png) | ![](./week5/crud/ss/edit.png) |
-| ![](./week5/crud/ss/add.png) | ![](./week5/crud/ss/delete.png) |
+<table>
+  <tr>
+    <td> <img src="./week5/crud/ss/index.png"  width='50%' /></td>
+    <td><img src="./week5/crud/ss/edit.png"  width='50%' /></td>
+   </tr> 
+   <tr>
+      <td><img src="./week5/crud/ss/add.png" width='50%'/></td>
+      <td><img src="./week5/crud/ss/delete.png"  width='50%'/></td>
+  </tr>
+</table>

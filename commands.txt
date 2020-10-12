@@ -1,0 +1,29 @@
+// connect to mysql (xampp/mysql/bin/ must be in your path)
+mysql -u <Username> -p
+(password prompt will appear);
+
+CREATE DATABASE misc;
+GRANT ALL ON misc.* TO 'alan'@'localhost' IDENTIFIED BY 'alan';
+GRANT ALL ON misc.* TO 'alan'@'127.0.0.1' IDENTIFIED BY 'alan';
+
+// only on console.
+USE misc;
+
+
+// create table users
+CREATE TABLE users(
+    user_id INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(128),
+    email VARCHAR(128),
+    password VARCHAR(128),
+    INDEX(email)
+   ) ENGINE=InnoDB CHARSET=utf8;
+
+
+//insert
+INSERT INTO users(name, email, password) VALUES ("alan", "alandsilva2001@gmail.com", "alan");
+INSERT INTO users(name, email, password) VALUES ("sujoy", "sujoydchuna@gmail.com", "sujoy");
+INSERT INTO users(name, email, password) VALUES("mark", "markcoutinho@gmail.com", "mark");
+
+//CONNECTION
+$pdo = new PDO('mysql:host=localhost,port=3306,dbname=misc','alan','alan');

@@ -1,0 +1,6 @@
+// Run following commands to create the necessary database and users required for running other php scripts.
+
+
+CREATE DATABASE misc;
+GRANT ALL ON misc.* TO 'alan'@'localhost' IDENTIFIED BY 'alan';
+GRANT ALL ON misc.* TO 'alan'@'127.0.0.1' IDENTIFIED BY 'alan';

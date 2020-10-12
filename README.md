@@ -1,5 +1,5 @@
 # Building database applications in php Coursera
-
+Local development environment - [localhost/building-database-applications-in-php-Coursera](localhost/building-database-applications-in-php-Coursera)\
 This repository includes course files for the course - [Building database applications in php.](https://www.coursera.org/learn/database-applications-php).\
 Week 5 folder contains final crud application.\
 Setup files are added where required.\

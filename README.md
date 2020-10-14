@@ -4,6 +4,13 @@ This repository includes course files for the course - [Building database applic
 Week 5 folder contains final crud application.\
 Setup files are added where required.\
 
+## Concepts Covered
+
+* PDO PHP
+* POST redirects in php
+* Table actions
+* CRUD
+
 ## Get started
 
 See `commands.txt` for setup configuration.\
